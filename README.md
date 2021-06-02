@@ -13,7 +13,7 @@ The current PoC already has some example data for the `QmRDGLp6BHwiH9HAE2NYEE3f7
 ## How to simulate traffic
 
 - To use the tool, you must set the `INDEXER_SERVICE_FREE_QUERY_AUTH_TOKEN` on your indexer-service to a password / token of your choice. This password will be used by the tool to replay traffic without needing a valid receipt.
-- You will also need `goreplay` aka `gor` installed on your local system before running the script:
+- You will need `goreplay` aka `gor` installed on your local system, as well as ruby before running the script:
 - In the repo directory:
 
 ```bash
