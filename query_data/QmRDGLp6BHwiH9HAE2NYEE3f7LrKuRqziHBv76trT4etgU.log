@@ -1,0 +1,2560 @@
+1 0386928bc110908d76dddd2698a56cd1b9943e07 1622648275748671822 112084
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 43204bb8bb62f0b204494d46ed9be7188d5414a8 1622648275851602124 110868
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 793fb087734e21a6551ac8d3a59b7b2fcdbe338a 1622648276474261058 108966
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 1d3fa33228dcf9d39738a01d433e135d0ab252a0 1622648276570306000 109130
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 de54d460763625c2ae28d56228dd1ad0f86aebd7 1622648276649164037 110166
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8c5a7f2c3841acd46265ef5b6d0eb80a02ba3637 1622648276719480859 81383288
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 f55bb23a702d367518026a3d6fd43a3e1a4e21ee 1622648277216329213 110012
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ba9c9ab76f4f4db163a82cbb3ec222912b3c5066 1622648277269133736 109557
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ce15596d50f7e4f472aa5cbfc4a38724c0dae5c2 1622648277448346749 107573
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a9393ce01d44c82947be5fc2d48bb1e11e0bf93a 1622648277522627721 109601
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 288b92043728c4f8dd9a0154d68d68e8dd0445ce 1622648277694931357 90551604
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n    
+🐵🙈🙉
+1 491df11aa8846c970f25c95c0cb247fd25beb730 1622648278235519391 88330648
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 53afb10765c06f86022e0e5a07e242fed325ac7b 1622648278410901160 82795829
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 4d62b2047dfe453ce189a94d08912a0e1869f0d0 1622648278534029442 112067
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5137ac59ab36b9ba90a31eead6c9d8987da13733 1622648278747473520 144971
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 9af55bf4de52c56952b7ce6b5c05da1afabd3da6 1622648278704560583 81477316
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 a0eca606d7c3705102bec9ae4815e18bb905cf4b 1622648279061552931 109604
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5b13862f3f31536ae003ae6abba9746a0de1007d 1622648279211562558 104830
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 973a4f3644a861554a1bdaf4ba10837945e77e03 1622648279483984249 107487
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f541dc74a4fe825d5c8ee912c9619c1213d477ba 1622648280140099183 111349
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ea5bdf4b591655f6fa2470808e690527cdc5cdc8 1622648280144731692 103564
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d09a41cb0a30d2482c4f6d5825e7200652de00f0 1622648280219140767 90548664
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 27c1983d42f2e018955840d913d0b89633c8f72a 1622648280452503445 100330
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 90b2c64f2ecc513594b577347f66a75cd12ca0be 1622648280525263300 125040
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7a93b0549bf1a818159bcf224906f2c8cf911954 1622648280815977304 108913
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 12c9b606721db270b74028df72c901d9e277f93a 1622648280913498643 145111
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4c51f263bf6c46f083294a8404b202c3951e83fa 1622648280866787029 84743499
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 c5ac15f8602c6face2771dd49c26c9fc4fbe7f36 1622648281261715758 87239362
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claim
+🐵🙈🙉
+1 412ae4972045de5fb4a068008930326cd4cf6062 1622648281355786853 72100
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c0707bcbe7bf363003851954d017b08969dcf878 1622648281390544960 99280
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 eb1a71b79afb8f5f79985d8f9553af43b06846b0 1622648281536700001 110094
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 2292896729af38c1f3b4d996b4b55d08e3abed75 1622648281691365008 109682
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8839e0f8e38f0ceab3ab3b5862a50e7cb3f6ce41 1622648282640946390 108064
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 240c654bdbea676bfed0a651749ed72f0b5cf13e 1622648282854132038 107096
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ec7756655525654bbba94e7fea41bc73da2886fd 1622648282861859337 118625
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 14d004d23b19ae0252f0888a28e9472356ce3051 1622648283012408456 75604810
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 ae85bf122cc1991a5e282f6175ecfb5330332a5c 1622648283409949093 124820
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c93657263016264e3a3c3d80fdb261544edb5470 1622648283735171908 81312897
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n    
+🐵🙈🙉
+1 cfc379ba658a9855caa6516fdd4561390b6afc34 1622648284060045357 126481
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 3c1b09adb391cbf4eaf1a19908db5618121b8be4 1622648284220681428 85949602
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 4485a2beabacff382bf276778450251b9607d451 1622648284527065525 84760655
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      cla
+🐵🙈🙉
+1 be007db70362273c49e84227d7ef6b380a8873be 1622648285035835595 103890
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d28fb285d36b2e67391fe4b3d9676ea562f569c9 1622648285392676951 117780
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 93b8fa761ba563444934514cef9371353a83efa8 1622648286191111937 110811
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4645e8f5f44bce34f1e14d1b88cf7bce28192dc0 1622648286246427299 82830274
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 74d05c6678a09cd250ae5c52e46c9228e178d241 1622648286421580021 124801
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e5d8b67755499214b5d3dfad7aaa9213c499d8ba 1622648286834771193 116785
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d61d7e665b57f3173b3d6c18a974f08e3eafa1e5 1622648286898978745 117693
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 1df7b99a4b8066c6dc41d709ab023321995acd81 1622648286954019431 126888
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 9e9fcdbda0e8c6f66c80a652251bed31a97dfb11 1622648286982510089 128050
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e582d3973e56c3832d098063dfb50db667272fb5 1622648287120204547 116130
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 9c811a5888830d3cb3494f6ce973dc93c5551db0 1622648287325197500 131460
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 81ff7bf20b9e0f3d5f4ce614f689ce84be15011a 1622648287365228140 133918
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5a24af915797809e6d015921be85461b4d93e100 1622648287513102995 95246
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 229633412a6dc53d3e19711f2ee1c96d1ccd3a05 1622648287519593265 85808
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 43a3fa5abcf0aab7886dd77975411d3c7637fdd8 1622648287709279327 78435032
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 ad9936a2b15df26481c14b6603902de397f3448a 1622648287829291558 88411756
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 df61d6e4e3027495c2e2c619dc450f7bedbf45ba 1622648287930365203 76957
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f5d011d8122dc92b53466bb22b8caab49d9f25b1 1622648287954958191 130527
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 77f354701b8b0b8cbf08f9d1eb8ae39c0b2b55ae 1622648288346266843 107513
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 40e0956dd77625da02a0e7d41854355a5b4fc8a8 1622648288354104825 106210
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 17ac1b63d452cff2183503756a01ed537a194f8d 1622648288632508652 136380
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d3bc813fc6558dae363c85157d197be5684df5d5 1622648288868382769 107953
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 3e529d28659473940aa562fc461fdcf4c54eab36 1622648289137073778 84481044
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 929431a1308aed8268e003768c856da43d607487 1622648289244281689 116364
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c32806dd4ea1f9fb8744ddb7565d73aa1d02d62d 1622648289442660282 71813924
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 cb19e4593f8bf10ae69a9973b24b65626b57d404 1622648289439502342 89179665
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 a0fed17358b2ad1dacc41b4fcdd9401f5968b0dc 1622648289787607989 103310
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 1a32b555666d22d77833297e8380e25da6668401 1622648290550583662 117393
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4f7cc275c79e5d4c8267cc0891515362080ff313 1622648290670433180 108556
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 73de0ccd2e1b80aea684492779a3d007592aa40c 1622648291063943320 109321
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c03cff2bf121ae5a759926ebd9874590f400405b 1622648291238911903 109167
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d25d7b20f7336a1c7d658ffadfa5c94f4c0f8148 1622648291346901002 110143
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f67060da6bbada6c22b44fba426830581b5d3ab6 1622648291404075093 120413
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 555c06e3d96c0dd532da8473bcb167bc9dac8659 1622648291416078900 118205
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 67819c62bcc7a05e22a788ad703d1796c713f2a0 1622648291612519616 84912
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 61abfd9e925f2bf3cfedaf3719bd5dce4fe25ecc 1622648291554825664 85246115
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 af736d83dd0fa5d8b2fc53bee279947ed2fa6a05 1622648291699399375 110587
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 69d5a1615ba0584fb830efc2a9178b88b84b9ac6 1622648291767490226 106236
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 2a14d6a02a8a8329b99c9318cafcf7fb4dec4ef8 1622648291848785882 107385
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7666a8c7fa07dccb1b90c7d82b08991974719eb0 1622648291943006577 108923
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7a140c1fbc98af49fa573b2609c22f5e017d7120 1622648291945836476 111172
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 76ca6995a481f58494cb93a1afbcd2a7875e7762 1622648291970597983 108311
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 84cd6ccc0092b256895b88ca0f99b9c86c503830 1622648292093525998 118268
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 86265263042e2d60dde87d5aa89203dd67c66c9a 1622648292215011822 119541
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x0b7ed721439389cb55d6c5ca401dbb7f5396f9e46c9d955f2a08d4e43c720ea9\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 bea7213b71baa5a30cdfa9c223087975c1bb5914 1622648292429322849 165018
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 17b2d2245b3af8542d623c0ca8bac3088f128401 1622648292458561085 84459293
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 48649d0f00a552ac0986156d29a28ebd0d27c84d 1622648292622787747 106239
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c530549d9b6746d5dd3986aa4c731e47ddcf8ade 1622648292701145636 128713
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a7aa978b83aa720082323e09f8b41f6b18d8b8f9 1622648292818894570 108389
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 bbeeff86e80f5ff1ca4121cf70ea31beacd7f744 1622648293723444278 104242
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 6cfcc1ea6c25b687ea19b5b49cf31589ee8c406a 1622648293830622333 108592
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 997c6511a0578f2f3f3bef79bedf2857bcbbf88d 1622648293877393954 110269
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 260bc493c5d40254374096a52d44e50af2490d32 1622648293973532337 106972
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a0e8972eeb4b55cc33b22746a871a1186f36bd49 1622648294193843738 106634
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c3e64bf438a1dcc516da5ffa52e92b16f099f236 1622648294374796429 108636
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d7d09c1cc4612dc9b9be402f370fc34f643685fe 1622648294432690380 108595
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e5019efcdb4e1fb54176f5fbb62c41f1b3f4d5c9 1622648294454139767 105852
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 29530dc0b5f5900422f9ff0da9ec2297f41f2851 1622648294512973137 109705
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 816b5a92a5d19b6fac0a1889434885208e3a10ca 1622648294699763235 107032
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7c96aeea58178a909c0162b7622d8ce08ad063d3 1622648294802396590 106912
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 52714a9bfe4db751b1227e262b43272269503339 1622648295429831325 100827
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 fc83b20db9a35ded93a4b4d35558ea4a00195c76 1622648295667081062 110744
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7720b92c0c15b7d4f3b0397023dbb352c845b0fc 1622648295738408048 107390
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8c7c78065126a47b23eb95902f356ffbbd535dcb 1622648295800525587 109671
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 873a38bffe218bf5366aaf7cbb92037258b39f8d 1622648296226806326 110186
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8cfa8324d46b600642dc4ef80b7a2f0481c35069 1622648296251652133 109121
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 db5b1cc873bd73e50c0ae0e7cb8f9aa46d7f2624 1622648296544014774 110320
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d63ceade81f508f65ef6d238ea9f600b60d0eec7 1622648297618284036 102812
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 10f6b13be1ab379412e4bc7a4d461b6e2549f31b 1622648297669168601 119855
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 908094591ed8282ac9a01c50b4f3d1fc42f7df60 1622648297771178645 104105
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 72c1c80f4db41bf87ab6c6f076384c92b8e1dc32 1622648298232656278 121616
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 219a02f27e9eff3183169d67d59e101ca86a00ea 1622648298340154417 112327
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d94ff7e1b0aa00ca392c7694107a9e5d7ca1c11b 1622648298398631794 119310
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7831b6f4492b83b4c2fcf4947651f673356f8d49 1622648298268367318 184063853
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 a96af14ee8ad920aa655fdf7a900625f0798a2a3 1622648298385570132 99097875
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 a74959ad8d1602a60ab65c3110fdf45634dec937 1622648297371476622 1156734381
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 b07fa09f846dbca6ad802ada68d960dc14226bc9 1622648298618740306 98366
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 2c0b969adf3bc6c7e3b24e44f0ca37cba3a5adca 1622648298753005012 111947
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f0d868840f6cd40ab53a90d308c09ffe344a89c8 1622648298826425219 109032
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0538a9ad20c39cb87a72c2ca11fe14778a964ec4 1622648298896376389 84453110
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer
+🐵🙈🙉
+1 163adbb3c2d3ed831abed3d551e689256f9dd9e2 1622648299063507052 106947
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c6f526372da17bd09ff4a3e2f035b37813ea9fc1 1622648299456565536 116470
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5beca46acee4b3e17f74468cb379c42532773954 1622648299531725901 88544
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 fef6d69336b334f9ebff16f7b31a2d030ada71ff 1622648299460658101 76193421
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 55a775ce9e7ac39d65756356675d99052cb4563d 1622648299462437296 89656520
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 150eaacbc1c3e7ecbafe70aefdf803f1a92fe45d 1622648299771252211 107723
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d49db9b950c43d30846a89f8539903206017d186 1622648299992402228 107439
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 817409994dc02028873cdd755f039f87519ca4f0 1622648300230181628 131473
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0c66102674b9c7588af5a8b30782f2be8ebb7504 1622648300315851129 108308
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 440abb1cd1213bff1b5e0857d0f9b97f152f241f 1622648300362688137 104092
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f99a0e54b8b5e0f415c0b59ac9c37c110fac9e8d 1622648300450563482 103951
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 36467e4210f326764dbee491b8c02cacfe9af8fd 1622648300720766237 108890
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f6a577e7daabf5d8de962dc324edf965542628db 1622648300750091711 110116
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4f95cce6a217aab2ec3b8da06b580cee25888770 1622648300794117444 75962801
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 d302ebb50f983b6005fb65821c97653e1edee896 1622648300902115352 99256
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ca9c4ab39c940c64801b28fe2efc8ec964c504b9 1622648301062653873 106310
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 06af27a51b3ab6b3876220b2e3889f7719e883bb 1622648301104989668 107566
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 24c671d2b9c126e7d9c6fb7e256571d39019dcf0 1622648301664038220 78230538
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 0b81c18bf3d42d1aa4d7a26a1309a1cfba7480db 1622648302384674531 121048
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a49c0d7729bc79ff1def5312f19e9252d05b1514 1622648302503886822 80339993
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 d7995abd1efd859d8d2985d94b99b078fdd8348b 1622648302676837560 124757
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5213fd5fea9a11bcedddd2cc118bb2a7f07bf67f 1622648303102006936 136407
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8fe3eaa706ec9869b15d859127dead6dd523c814 1622648303396906292 100129
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 551efeca432b5e3907c51077f4a10e2007a6d6f5 1622648303447500361 106804
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c070c303e99b5187caec791dbd4e47f0ea7e8408 1622648303574490957 118325
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 771b5fb818effbc55aa296dacbc78ed889e60d72 1622648303866194025 152144
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7762752c12033d0f5c64c5e1b93d1d9dfac4e180 1622648304000456263 89978015
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 9cb49ae910becec32ea378cd88968a6c7051b141 1622648304206991705 112521
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e5a7f131239afcbc0c6f00d52cb2e1a7804e83b7 1622648304262494559 131757
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 434bb6db15b52a4fb3f25a5c462e80911dcee816 1622648304626076345 108208
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0aaffc2023dfee519eab36a27ea406e39644075c 1622648304719460208 108599
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 26c73f86fc888797744a75402a04cb55027bb85b 1622648304827632005 128478
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 15141d383b71e8a2777a5f76376dcc66e2706146 1622648305057565379 110366
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 fdd1b541f5349ac7c447ec71acd5f088af10b776 1622648305078051896 87454015
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      cla
+🐵🙈🙉
+1 c1eb19cdd4504eba5b6bd9be12acf86719a152b9 1622648305911223987 109709
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e3ba904635d778d923e39f29ecdbd3be2cfff201 1622648306218028553 104545
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 aeb0d49556c5cdcce23f3687ad8d006c5286fb13 1622648306253496571 105615
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 04bcbcf123e2a4315abef1cb6221fb548ebbb0c0 1622648306377161969 97916
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 29160bca6e19137f04bbcc4f5509cef48e16e618 1622648306385806665 100559
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5ded8b505616f0b259a17359dcbcbba1502dfbc0 1622648306607808992 110898
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d6ce96ecc94869c9b98c2747cc92af107e6dad94 1622648306616507464 98130
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 272edc6152a871dd6787d66df91f6507d6a8dde4 1622648306975696318 108222
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 191142de8b4d7adea0670258aad7979a6f341742 1622648307709524722 109010
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c433254ae92d31cba2b470626a5a7d72b08efdaa 1622648307859867988 107369
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 85c0aaf7e461df11ac1a507ad733b880a3d0d50c 1622648308207138363 108328
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a57c8285b560d1d733db141c282c98f009fed3f9 1622648308411668826 107483
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5f32b03b13fbefc9c794a8acb8f60626706cf32c 1622648308414976620 99590
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c4b391b82976195fdb12b588fc7f57525acd03eb 1622648308540353975 108555
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 3ee6c31ffffbff38d80402d3d7e5a9167d97a9ce 1622648308652460364 122287
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d9ee9987a12f5a976ee29ddc6fdcb1bb314f310a 1622648308841435222 108866
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 172e327201419fe1576db20374f4f810dc59b835 1622648309104251833 108706
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 914dd098a31700e40b12af24fe5ae258889c972f 1622648309296599934 108602
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 295cb8e3d8d312ab9ef2e443b716b93f22b48fea 1622648309379320205 106964
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 73fdb37ad8a0da4145faba56966d1e9acd410af3 1622648309408212704 108265
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 908a2d01c8be2893e0490e1259b69018d881ab69 1622648309666300742 105525
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0b30decb148783ac50d9c7410fae15c6023d13ce 1622648309641198575 83229513
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 488f26926e5f2ba469f349920edf24e0bad74e53 1622648310292835062 108729
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 47989d5b7332e253f3f74023b71d21ca7e0420a3 1622648310346949912 111539
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7428b42df6bff9a29c02354d6868ea5ca701644a 1622648310566574123 82724
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f67f41679b8512f69361716a8fd4b8747657d6db 1622648310726302490 108492
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 b9493190199b75b73f7b0296b7794dfaa18f1688 1622648310794075208 116911
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f506a86878fd3233d3856b37f2b4d6c66dcedbcb 1622648310910117781 109374
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f4f4de2ddccb20077cfafb4e0db78b630a061086 1622648311410960044 108472
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 542308a6750f9114843c84e49d9be9a475da2810 1622648311725917904 103533
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ac6b860574955bf86efce4f4bbf549a651fee7d0 1622648311828829693 102698
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 950b422323e983ff37b60f5b3e2919fafbf2b486 1622648312463799378 106561
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e6285e3e87e771f3c0fa9d161880ef7fa2b038e6 1622648312476698234 107322
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 82faa7f8a4e0a8bf1d7bab0e968eee8344e1d665 1622648312574629175 107553
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 073f7d0a4df8068fda909706a9c810ef86067e57 1622648312601318419 131857
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d2ceca1290d1b0cb1880706c758683ee5853142e 1622648312881511761 105338
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 3c84084b94505d26b85bb904e4711e5473b0bbb0 1622648313605725972 109307
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 b9ef3d49e779d31a3d5e49f84dad9173ec2396e3 1622648313707899551 101549
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e60656e85b882d6094f1e6132f8c0adea4b8d49d 1622648313792118074 101672
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5082c42783c792500d5d5e6916a5a4ef42f0c7ae 1622648313802688526 88087321
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 5a3c7e26d7a1f65decd9ec66c21d2ee0fea28d20 1622648313983963161 120597
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7de7c4edeccc3b1c531bed3c51f75c7eca919117 1622648314279958855 80029
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 9dfa56376c40b66656a718808116fc0980172969 1622648314284791963 42764
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4172e0b6bf28cc105fc06120459e28f113482bf8 1622648314764021046 109838
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ba8286586d1f8de582ee3c07f32d8e650327b954 1622648314785695031 81318942
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 8e9d348a134048d084dadea1467e988303cf2568 1622648315265840340 108795
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 899bb348c0eba39ea6ef3a53bab7c0fd48641143 1622648315573564085 108629
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 8ffbb92d9262e3e93a85b58c91a1f3d75b43cf6a 1622648315629009037 109478
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 6b452f722d67dfceef1e24718d0d655dff8c4cfd 1622648315789510236 111101
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 47df6fa533b97836a1941696a7d6970e51e7f891 1622648315853561143 107490
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f6192bec97a9249a1e527f2c4e92fe9e24118da6 1622648316788959140 108753
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7f06b299fc4e597a4f87c34ba26f538176a4ebd6 1622648316834794033 109831
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e2c03d44501ce105970f9cc8e0b6ceeb7aebd1b1 1622648317349886984 103804
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d5cd5b2dac1edc8f17dbeeff23b4b61f2dda7b0c 1622648317593983452 105061
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e56a9705ae689fb17e73dd251b0bffc8f32a9ae2 1622648317595152923 94880
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 e41d563c711afd61f8c386e59b3efd12d4d3fa66 1622648317746006130 110794
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 b7b19a5f95bc179bba309641fddabd2914dc7b8e 1622648317796367185 109036
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0221a6696e9d993923829d0535f4d2dcb8e1e2c6 1622648317995681377 107016
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5c5f9a59a53b5a0a5f216c848693b585345f7a37 1622648318005842530 124426
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 eb7cf2b3bfc859b806fb27807ae71d7c959affdc 1622648318242497036 110920
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 2797d3a49516fad993c5708d7a634eba44f0adec 1622648318423279423 98562
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 648c2b0a0ba8fcfa94eefa9a0507a6a35ddbad8c 1622648318525664711 110013
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d358f0e1ddf8dcdbc1b94f17b302e1151e71593f 1622648318576192726 118017
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0f34a18b7a61067a65cd855500cc725a96cef37c 1622648318814395032 118765
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 498bf9472a517f54761fbaff8aaedcb492121b99 1622648318828766193 102945
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f80fd51307d4b764ad4680aa570a464c0938a6d4 1622648318951917130 104108
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ea9d8c3f1b98b24d4b2ac6030519c75ab4a6cecc 1622648318977577357 106781
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 08b6a30daa0f53b4a9cdc5c96d9805d52650ec54 1622648319267624227 82888471
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n  
+🐵🙈🙉
+1 d32c87434471ce69e35e19b71b0c17f6bc3d0831 1622648320013658617 113066
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a0a5c56a2bc9a2c5ab12d48e3191b85daf3fe177 1622648320378531732 103465
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 514860dd8fefdb91e508f70a33dda5604951a198 1622648320409254397 59023
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 715e0083e8824ca8538af2e80f8e40a9afdae456 1622648320548042640 94319
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x460d4212a648d2d4b0d3b9233139a63e5970932ff672cd4fdd10bed8d5341838\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 60f606bd43b10411d608b11f4296b3845954ae1f 1622648320596603705 62488
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 fccb654fdc4071478cb136c3d198f85712bfc4a1 1622648320800654824 85148057
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 57fabef0c9b3e3cb039c05dd1a6c212c826983b9 1622648321154473355 63452
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 771e7f18a0a09d01c36cff0cba3f9ac5b0736e90 1622648320252975552 1075517347
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 598cd138be309d2bb6e16f7308dfc16c22a1c892 1622648321384879300 106907
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 f0d5cf373f7fb90d4ee0fb6ab6463ae8b68116e6 1622648321990273766 104141
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 a1a0498de990d4581b0279966175413f07071bc4 1622648321998990107 146054
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c62a8428c3b014f2bfb312199d544e62677e1947 1622648322403084128 106684
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 2446c10c3e2f95212915730cc6cf2a4e6e91b16a 1622648322668407091 108522
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 4625ed4df41e38dcf70bd551cfe4d8c31b0a41c9 1622648322833967407 112612
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 ddae5de1aca40eee6e67f9a655b6ac4e216b5098 1622648322966234967 103757
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 b053bcc359ec6ff2c7d28e204963e600550435b5 1622648323048522892 109427
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 0db20807cc1fa896631aa4773686be8efd4ccdf6 1622648323543089056 109658
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 1227bf672ee460d4235dbf81d95535a70fc77016 1622648323744387547 111693
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 6540a4c3e5a50c8a02c1d00cd6a64ac731bc4176 1622648323973977087 86868348
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {
+🐵🙈🙉
+1 c8a0f510b0a714834d8048ce944d15eef02c42ac 1622648324061061797 100807
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 08bcc33cbb3cafa22c7bc41b710a357dd72ed27d 1622648324147740450 85938462
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 567
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    identifier {\n      id\n    }\n    roundId\n    time\n    totalSupplyAtSnapshot\n    committedVotes {\n      voter {\n        address\n      }\n    }\n    revealedVotes {\n      numTokens\n      price\n      voter {\n        address\n      }\n    }\n    inflationRate\n    rewardsClaimed {\n      numTokens\n      claimer {\n
+🐵🙈🙉
+1 80f41993aa7a5680c3af36fd939035db5036cdda 1622648324434517127 110694
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 7aed9987b85b447bb827729844ee6a4685bd8e56 1622648324446836984 136234
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 dd7ac10b17a365c21319e46eabfa4e41d1e754da 1622648324609772333 78374
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 76777d27659308321624e8954f95d99190c2bb2b 1622648324615338452 71265
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 c44d2c8bfc894c2d23b18997b80e5768b2087acc 1622648324670651752 101220
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 805b324f407002358c2431fee10b29cdcc9519be 1622648324935631219 104225
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 311
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceRequestRounds(first: 1000, orderBy: time, orderDirection: desc, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    roundId\n    identifier {\n      id\n    }\n    time\n    ancillaryData\n    totalSupplyAtSnapshot\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 5a1832993db8583676ef99ca0fe86de7d2f99cb8 1622648324975369222 110567
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 6cf6bc51fa289f64ee40d5cb3d8e993e9a1717ac 1622648325291085717 118375
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 275
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  users(where: {countReveals_gt: 0}, orderBy: countReveals, orderDirection: desc, first: 1000, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    address\n    countReveals\n    countRetrievals\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 b24969ca6d61ec981ba0605d7a01475f894e3faf 1622648325456539466 109150
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 bbaae4fa26b92948320466b70fad52d6a0ab8407 1622648325673670148 107162
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 213
+accept-encoding: gzip
+accept: application/json, text/plain, */*
+content-type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: true}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 279461f96b19d72e2faf65c91d40f3e9b4a4540e 1622648325975304891 110206
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x6968a7d78699e34717771a550acdd567ae367bb828d659cbcd7a2ba41df2636f\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
+1 d76630e1c5d158faa44b8a7f577472b6c1631b70 1622648326278419118 108425
+POST /subgraphs/id/QmRDGLp6BHwiH9HAE2NYEE3f7LrKuRqziHBv76trT4etgU HTTP/1.1
+Connection: close
+Content-Length: 214
+Accept-Encoding: gzip
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{"query":"{\n  priceIdentifiers(first: 1000, where: {isSupported: false}, block: {hash: \"0x30d5841a78e591854b7ded62f1fa320bf0ebbc276689d56cd1f3cf0d2ed9733c\"}) {\n    id\n    isSupported\n  }\n}\n","variables":{}}
+🐵🙈🙉
